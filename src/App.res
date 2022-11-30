@@ -26,7 +26,7 @@ let make = () => {
     </button>
     <video
       ref={ref->ReactDOM.Ref.domRef}
-      src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      src="../public/vinas.mp4"
     />
   </div>
 }
