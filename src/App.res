@@ -20,7 +20,6 @@ let make = () => {
     }
     None
   }, [isPlaying])
-  {Js.log(isPlaying)}
   <div>
     <button onClick={_event => setIsPlaying(_ => !isPlaying)}>
       {React.string(isPlaying ? "Pause" : "Play")}
